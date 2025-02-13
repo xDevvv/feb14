@@ -2,32 +2,182 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main">
-        <div class="img-content">
-            <div class="img-container">
-                <img src="./img/sample1.jpg">
+        <div class="intro-content">
+            <div class="img-content">
+                <div class="img-container">
+                    <img src="./img/image2.JPG">
+                </div>
+                <div class="img-container">
+                    <img src="./img/image3.JPG">
+                </div>
+                <div class="img-container">
+                    <img src="./img/image4.JPG">
+                </div>
+                <div class="img-container">
+                    <img src="./img/image5.JPG">
+                </div>
             </div>
-            <div class="img-container">
-                <img src="./img/sample1.jpg">
-            </div>
-            <div class="img-container">
-                <img src="./img/sample1.jpg">
-            </div>
-            <div class="img-container">
-                <img src="./img/sample1.jpg">
+            <div class="password-section">
+                <div class="header">
+                    <i>What is the date of our Anniversary?</i>
+                </div>
+                <div class="input">
+                    <input type="number" id="user-input">
+                </div>
+                <div class="btn-container">
+                    <button id="1">1</button>
+                    <button id="2">2</button>
+                    <button id="3">3</button>
+                    <button id="4">4</button>
+                    <button id="5">5</button>
+                    <button id="6">6</button>
+                    <button id="7">7</button>
+                    <button id="8">8</button>
+                    <button id="9">9</button>
+                </div>
+                <div class="btn-confirm">
+                    <button class="send">Confirm</button>
+                </div>
             </div>
         </div>
-        <div class="password-section">
-            <div class="quest">
-
+        <div class="date-content">
+            <div class="header-question">
+                <div class="question-container">
+                    How long we've been together? &#10084;
+                </div>
             </div>
-            <button>1</button>
+            <div class="date-section">
+                <div id="yrs-months">
+                </div>
+                <div id="dys-hrs-mins-secs">
+                    <div class="time">
+                        <span id="days"></span>
+                        <span>:</span> 
+                        <span id="hours"></span>
+                        <span>:</span> 
+                        <span id="minutes"></span>
+                        <span>:</span> 
+                        <span id="seconds"></span> 
+                    </div>
+                    <div class="labels">
+                        <span id="dys-label"></span>
+                        <span></span>
+                        <span id="hrs-label"></span>
+                        <span></span>
+                        <span id="mins-label"></span>
+                        <span></span>
+                        <span id="secs-label"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="memories-btn-container">                
+                <button class="our-memories">Our Shared Memories &#10084; </button>
+            </div>
+            <div class="heart-container">
+                &#10084; &#10084; &#10084; &#10084;
+            </div>
+        </div>
+        <div class="images-content">
+            <div class="images-header">
+                <div>
+                    Always You, Beb &#10084;
+                </div>
+            </div>
+            <div class="frame">
+                <div class="image square">
+                    <img src="./img/image6.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image7.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image8.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image9.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image22.jfif">
+                </div>
+                <div class="image square">
+                    <img src="./img/image11.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image12.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image13.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image14.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image15.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image16.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image18.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image19.jpeg">
+                </div>
+                <div class="image square">
+                    <img src="./img/image22.jfif">
+                </div>
+                <div class="image square">
+                    <img src="./img/image21.jfif">
+                </div>
+            </div>
+            <div class="frame-footer">
+                <div>
+                    <button class="back-btn-date">
+                        &#x2190; Back
+                    </button>
+                </div>
+                <div>
+                    <button class="my-message">My message for you &#x2192;</button>
+                </div>
+            </div>
+        </div>
+        <div class="message">
+            <div class="icons-holder">
+                <i class="fa-regular fa-envelope fa-xl"></i>
+                <i class="fa-regular fa-envelope fa-xl"></i>
+                <i class="fa-regular fa-envelope fa-xl"></i>
+                <i class="fa-regular fa-envelope fa-xl"></i>
+            </div>
+            <div class="message-content">
+                <div>
+                    Hello, love. I dedicate this effort to you on this day of love. 
+                    I hope you overcome all your problems, struggles, and silent battles in daily life. 
+                    I'm here to support you every day, and I will never get tired of pushing you beyond your limits and helping you with every opportunity that comes your way. 
+                    I do this because you love me, even when I have nothing to offer for now. Always be fearless in pursuing what you want, and don't be afraid—you're never alone. I love you Beb.
+                </div>
+                <div>
+                    - Bf mong IT
+                </div>
+            </div>
+            <div class="greetings">
+                &#10084; Happy Valentine's Day
+            </div>
+            <div class="back-btn">
+                <button class="back-btn-memories">&#x2190; Back to Our Memories</button>
+            </div>
         </div>
     </div>
 </body>
